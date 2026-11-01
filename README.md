@@ -2,7 +2,7 @@
 
 一套从桌面壁纸取色的 DSH（DeepSeek Harness）浅色皮肤：**橄榄绿主色 + 奶油绿底 + 纸色卡面**，整窗生效，设置里一个开关，关掉立刻还原原来的深色。
 
-![绿野外观](screenshots/overview.png)
+![绿野外观](overview.png)
 
 ## 它长什么样
 
