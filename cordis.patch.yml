@@ -1,0 +1,5 @@
+# 绿野（dsh-greenwild）—— 插件自带的挂载声明。
+# profile 在 dsh.profile.bundles 里列出包名即生效。
+- insert:
+    - id: greenwild
+      name: dsh-greenwild

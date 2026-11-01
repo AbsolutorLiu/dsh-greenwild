@@ -1,0 +1,47 @@
+{
+  "name": "dsh-greenwild",
+  "version": "0.1.0",
+  "description": "绿野：从桌面壁纸取色的浅色皮肤（橄榄绿主色 + 奶油底色 + 纯色卡面），设置 → 绿野 一键开关，关掉即还原原来的深色。",
+  "author": "AbsolutorLiu",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "theme",
+    "skin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbsolutorLiu/dsh-greenwild.git"
+  },
+  "homepage": "https://github.com/AbsolutorLiu/dsh-greenwild#readme",
+  "bugs": {
+    "url": "https://github.com/AbsolutorLiu/dsh-greenwild/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-theme"
+      ]
+    }
+  }
+}
